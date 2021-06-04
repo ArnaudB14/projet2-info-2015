@@ -1,0 +1,174 @@
+/* Index */
+/* Message défilant  */
+
+#connexion {
+	display: inline-block;
+	border: 2px solid black;
+	width: 100%;
+	height: 40px;
+	background-color: black;
+	opacity: 0.65;
+	visibility: hidden;
+}
+
+#connexion ul {
+	text-align: right;
+	margin-right: 10%;
+}
+#connexion ul li {
+	display: inline-block;
+	padding-left: 20px;
+	margin-top: -10px;
+}
+#connexion ul li a {
+	text-decoration: none;
+	color: white;
+	font-size: 26px;	
+	text-transform: uppercase;
+}
+
+#zoneconnexion {
+	position: fixed;
+	border: 2px solid black;
+	text-align: right;
+	top: 13%;
+	left: 39%;
+	padding: 5%;
+	background-color: white;
+}
+
+#message {
+	text-align: right;
+}
+#afficheur{
+			font-size:100%;
+			display:inline-block;
+			width: 90%;
+		}
+
+/* Slider */
+
+#slider {
+	border-color: black;
+	border-style: solid;
+	border-width: 3px;
+	display: inline-block;
+	margin-left: 120px;
+	margin-top: 70px;
+	margin-bottom: 50px;
+	z-index: 1;
+}
+
+#slider h4 {
+	position: absolute;
+	text-transform: uppercase;
+	z-index: 2;
+	margin-top : -35px;
+	margin-left: 10px;
+	font-size: 25px;
+}
+
+#conteneur {
+	position: relative;
+	left: auto;
+	right: auto;
+}
+
+#conteneur img {
+	width : 640px;
+	height: 310px;
+	margin: auto;
+	margin-bottom: -4px;
+}
+
+#conteneur p {
+	position: absolute;
+	left: 11px;
+	top: 255px;
+	font-size: 36px;
+	font-size: 20px;
+}
+
+/* Article */
+
+#articles {
+	margin-bottom: 30px;
+}
+
+#articles article h3 {
+	font-weight: bold;
+}
+
+#articles article p {
+	margin-left: 20px;
+}
+
+#video {
+	text-align: center;
+}
+
+/* Images articles */
+
+#photos div {
+	display: inline-block;
+}
+
+#photos figure {
+	width: 200px;
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.Emmaswan {
+	width: 200px;
+	height : 120px;
+}
+#photos span {
+	display: none;
+}
+#em:hover span{
+	display: block;
+}
+#em1:hover span{
+	display: block;
+}
+#em2:hover span{
+	display: block;
+}
+
+/* Page biographie.html */
+
+.Biographie {
+	text-align: center;
+}
+.Biographie a {
+	text-decoration: none;
+	color: black;
+}
+.legende {
+	border: 2px solid black;
+	margin-left: 25%;
+}
+
+
+/* Page ouat.html */
+
+#titre {
+	text-align: center;
+}
+#saison1 {
+	display: none;
+}
+#saison2 {
+	display: none;
+}
+#saison3 {
+	display: none;
+}
+#saison4 {
+	display: none;
+}
+#saison5 {
+	display: none;
+}

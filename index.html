@@ -1,0 +1,157 @@
+<!DOCTYPE html >
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Once Upon a Time - Emma Swan</title>
+		<link rel="stylesheet" type="text/css"  media="screen" href="style/style.css"/>
+		<link rel="stylesheet" type="text/css" media="screen" href="style/commun.css"/>
+		<link rel="icon" type="image/png" href="Images/plume.png" />
+		<script src="js/index.js" ></script>
+	</head>
+
+	<body>
+		
+		<!-- Top menu -->
+		<div id="connexion">
+			<ul>
+				<li id="name"></li> <!-- Nom de l'utilisateur rempli avec fonction recupID -->
+				<li><a id="co" href="#">Connexion</a></li>
+				<li><a id="inscript" href="#">Inscription</a></li>			
+			</ul>
+		</div>
+	
+		<!-- Pop-up de zone de connexion -->
+		<form id="formulaire" name="formulaire">	
+			<p id="zoneconnexion">
+				<img src="Images/swan.png" class="cygne" alt="Cygne" />
+				Veuillez-vous identifier<br><br>
+				Identifiant : <input id="id" type="text" required size="10" maxlength="10" name="identifiant" /><br>
+				Mot de passe : <input type="password" required size="10" maxlength="10" name="mdp" /><br><br>
+				<input id="reset" type="reset" value="Réinitialisation">
+				<input id="envoyer" type="button" value="Connexion">
+			</p>
+			
+			<!-- Pop-up zone inscription -->
+			<p id="zoneinscription">
+				<img src="Images/swan.png" class="cygne" alt="Cygne" />
+				Veuillez-vous inscrire<br><br>
+				Nom : <input id="inscript_nom" type="text" size="10" maxlength="10" name="id" /><br>
+				Prénom : <input id="inscript_prenom" type="text" size="10" maxlength="10" name="id" /><br>
+				Identifiant : <input id="inscript_id" type="text" required size="10" maxlength="10" name="id" /><br>
+				Mot de passe :<input id="inscript_mdp" type="password" required size="10" maxlength="10" name="mdp" /><br><br>
+				<input id="reset_inscription" type="reset" value="Réinitialisation">
+				<input id="envoyer_inscription" type="submit" value="Inscription">
+			</p>
+		</form>
+		<!-- fin Top menu -->
+		
+		<!-- Zone qui contient tous les éléments de la page HTML -->
+		<div id="contenu">
+					
+			<!-- Message défilant -->			
+			<div id="message">
+				<p id="afficheur" > Bienvenue dans l'univers d'Emma Swan de Once Upon a Time !</p>
+			</div>
+			
+			<!-- Audio au lancement de la page -->			
+			<audio autoplay>
+				<!--<source src="sons/vent.mp3"> -->
+			</audio>
+			
+			
+			<!-- Header -->
+			<header id="retour">
+				<img src="Images/header.png" alt="Once Upon a Time" title="Once Upon a Time" />
+			</header>
+
+			<!-- Menu -->
+			<nav>
+				<ul id="nav">
+					<li><a href="index.html" title="Accueil"><img src="Images/accueil.png" alt="plume" class="plume"></a></li>
+					<li><a href="pages/ouat.html" title="Once Upon a Time"><img src="Images/ouat.png" alt="plume" class="plume"></a></li>
+					<li><a href="pages/biographie.html" title="Emma Swan"><img src="Images/emma.png" alt="plume" class="plume"></a></li>
+					<li><a href="pages/galerie.html" title="Galerie"><img src="Images/galerie.png" alt="plume" class="plume"></a></li>
+					<li><a href="pages/contact.html" title="Contact"><img src="Images/contact.png" alt="plume" class="plume"></a></li>
+				</ul>
+			</nav>
+			<br>
+				
+			<!-- plume qui tombe en javascript -->
+			<!-- Slider javascript : A la une -->
+
+			<!-- Slider javascript : A la une -->
+
+			<section id="slider">
+				<h4>A la une...</h4>	
+				<input type = "button" value = "◄" id = "b_slider_g"/> <!-- Boutons pour faire défiler les images -->
+                <img src = "" alt = "Once upon a time" id = "img_slider"/>
+                <input type = "button" value = "►" id = "b_slider_d"/>	
+			</section>
+		
+			<!-- Article de page -->
+			<div id="articles">
+				<article>
+					<h3>Saison 5 : Le passé d'Emma mis à l'honneur ?</h3>
+					<hr />
+						<p>Alors que la saison 5 vient de débuter, Adam Horowitz, le producteur de la série, nous apprends dans une interview que les flashbacks pourraient faire partie intégrante de cette saison : "On comprendra mieux Emma à travers de nombreux flashbacks dans la première partie de la saison". Cela pourrait donc signifier la réapparition de personnages morts précédemment.  </p>
+						<p class="source"><a href="http://www.june.fr/once-upon-a-time-saison-5-le-passe-d-emma-swan-mis-a-l-honneur-spoilers-a444572.html"><em>Source</em></a></p>
+				</article>
+
+				<article>
+					<h3>Emma Swan : Les photos promos de l'épisode 5</h3>
+						<hr />
+							<div id="photos">	
+								<div id="em">
+								<figure>
+										<img src="Images/emmaswan.png" alt="Emmaswan" class="Emmaswan"/>
+										<figcaption><span>Discussion entre Emma et Régina à propos de la dague du Ténébreux</span></figcaption>				
+								</figure>
+								</div>
+								<div id="em1">	
+									<figure>
+										<img src="Images/emmaswan1.png" alt="Emmaswan1" class="Emmaswan"/>
+											<figcaption><span>Photo du tournage</span></figcaption>				
+									</figure>
+								</div>
+								<div id="em2">				
+									<figure>
+										<img src="Images/emmaswan2.png" alt="Emmaswan2" class="Emmaswan"/>
+											<figcaption><span>Emma encourage son fils Henry à aller parler à Violer</span></figcaption>				
+									</figure>
+								</div>
+								<p class="source"><a href="http://forum.series-parlotte.eu/once-upon-a-time-saison5/episode-05-t5607.html"><em>Source</em></a></p>
+							</div>
+				</article>
+
+				<article>
+					<h3>Once Upon a Time "The Dark Swan" Comic-Con Promo</h3>
+					<hr />
+						<p>La première promo de Once Upon a Time saison 5 vient être dévoilée à la Comic-Con !</p>
+						<p id="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/_2xE3hAgHAU" allowfullscreen></iframe></p>
+						<p class="source"><a href="https://www.youtube.com/channel/UCDR8cvjALazMm2j9hOar8_g"><em>Source</em></a></p>
+				</article>
+				<br />
+			</div>
+			<!-- fin articles de page -->
+			
+			<!-- Retour haut de page  -->								
+			<a href="#retour"><img src="Images/swan.png" alt="Retour haut de page" title="Retour haut de page" class="cygne"></a>			
+				<br>			
+				<hr>
+			
+			<!-- Pied de page -->
+			<footer>
+				<p>Partager :</p>
+					<a href="http://www.facebook.com" id="Facebook"></a>
+					<a href="https://www.plus.google.com" id="Google"></a>
+					<a href="http://www.twitter.com" id="Twitter"></a> 
+					<br><br>
+					
+				<p>Copyright &copy; Site réalisé par Thomas MADER et Arnaud BARBEY, étudiants L1 info à l'<abbr title="Université de Caen Normandie">UCN</abbr></p>
+			</footer>
+				<br>	
+								
+		</div>
+	</body>
+</html>

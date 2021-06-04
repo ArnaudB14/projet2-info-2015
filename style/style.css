@@ -1,0 +1,133 @@
+/* Index */
+
+
+
+/* Message défilant */
+#message {
+	text-align: right;
+}
+#afficheur{
+			font-size:100%;
+			display:inline-block;
+			width: 90%;
+		}
+/* Fin message défilant */
+
+/* Slider */
+
+section {
+  width:100%;
+  margin-top: 50px;
+  text-align:center;
+}
+section h4 {
+	position: absolute;
+	text-transform: uppercase;
+	z-index: 3;
+	margin-top : -15px;
+	margin-left: 14%;
+	font-size: 25px;
+}
+section img {  
+  vertical-align: middle;
+  border : 3px solid white;
+  width : 480px;
+  height : 320px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 2px solid black;
+}
+#b_slider_g {
+  vertical-align: middle;
+  top: 540px;
+  left: 435px;
+}
+#b_slider_d {
+  vertical-align: middle;
+  top: 540px;
+  left: 967px;
+}
+
+/* Article */
+
+#articles {
+	margin-bottom: 30px;
+}
+
+#articles article h3 {
+	font-weight: bold;
+}
+
+#articles article p {
+	margin-left: 20px;
+}
+
+#video {
+	text-align: center;
+}
+
+/* Images articles */
+
+#photos div {
+	display: inline-block;
+}
+
+#photos figure {
+	width: 200px;
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.Emmaswan {
+	width: 200px;
+	height : 120px;
+}
+#photos span {
+	display: none;
+}
+#em:hover span{
+	display: block;
+}
+#em1:hover span{
+	display: block;
+}
+#em2:hover span{
+	display: block;
+}
+
+/* Page biographie.html */
+
+.Biographie {
+	text-align: center;
+}
+.Biographie a {
+	text-decoration: none;
+	color: black;
+}
+.legende {
+	border: 2px solid black;
+	margin-left: 25%;
+}
+
+
+/* Page ouat.html */
+
+#titre {
+	text-align: center;
+}
+#saison1 {
+	display: none;
+}
+#saison2 {
+	display: none;
+}
+#saison3 {
+	display: none;
+}
+#saison4 {
+	display: none;
+}
+#saison5 {
+	display: none;
+}

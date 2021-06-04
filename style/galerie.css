@@ -1,0 +1,26 @@
+section{
+width:1100px;
+}
+article{
+	vertical-align: top;
+	margin-bottom: 5em;
+}
+article.petit{
+	width:100%;
+}
+article.grand{
+	width:500px;
+	height: 300px;
+	margin-left: 20%;
+}
+.petit img{
+	width:100px;
+	height:70px;
+	border-style: solid;
+	opacity: 0.2;
+
+}
+.grand img{
+	width:100%;
+	border: 2px solid black;
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html >
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Once Upon a Time - Emma Swan</title>
+		<link rel="stylesheet" type="text/css"  media="screen" href="../style/style.css"/>
+		<link rel="stylesheet" type="text/css" media="screen" href="../style/commun.css"/>
+		<script src="../js/ouat.js"></script>
+		<!-- Feuille/s de style -->
+	</head>
+
+	<body>
+
+		<!-- Top menu -->
+		<div id="connexion">
+			<ul>
+				<li id="name"></li> <!-- Nom de l'utilisateur rempli avec fonction recupID -->
+				<li><a id="co" href="#">Connexion</a></li>
+				<li><a id="inscript" href="#">Inscription</a></li>			
+			</ul>
+		</div>
+	
+		<!-- Pop-up de zone de connexion -->
+		<form id="formulaire" name="formulaire">	
+			<p id="zoneconnexion">
+				<img src="Images/swan.png" class="cygne" alt="Cygne" />
+				Veuillez-vous identifier<br><br>
+				Identifiant : <input id="id" type="text" required size="10" maxlength="10" name="identifiant" /><br>
+				Mot de passe : <input type="password" required size="10" maxlength="10" name="mdp" /><br><br>
+				<input id="reset" type="reset" value="Réinitialisation">
+				<input id="envoyer" type="button" value="Connexion">
+			</p>
+			
+			<!-- Pop-up zone inscription -->
+			<p id="zoneinscription">
+				<img src="Images/swan.png" class="cygne" alt="Cygne" />
+				Veuillez-vous inscrire<br><br>
+				Nom : <input id="inscript_nom" type="text" size="10" maxlength="10" name="id" /><br>
+				Prénom : <input id="inscript_prenom" type="text" size="10" maxlength="10" name="id" /><br>
+				Identifiant : <input id="inscript_id" type="text" required size="10" maxlength="10" name="id" /><br>
+				Mot de passe :<input id="inscript_mdp" type="password" required size="10" maxlength="10" name="mdp" /><br><br>
+				<input id="reset_inscription" type="reset" value="Réinitialisation">
+				<input id="envoyer_inscription" type="submit" value="Inscription">
+			</p>
+		</form>
+		<!-- fin Top menu -->
+
+		<div id="contenu"> <!-- Zone qui contient tous les éléments de la page HTML -->
+			
+			<!-- Header -->
+			<header id="retour">
+				<img src="../Images/header.png" alt="Once Upon a Time" title="Once Upon a Time" />
+			</header>
+
+			<!-- Menu -->
+
+			<nav>
+				<ul id="nav">
+					<li><a href="../index.html" title="Accueil"><img src="../Images/accueil.png" alt="accueil"></a></li>
+					<li><a href="ouat.html" title="Once Upon a Time"><img src="../Images/ouat.png" alt="once-upon-a-time"></a></li>
+					<li><a href="biographie.html" title="Emma Swan"><img src="../Images/emma.png" alt="swan"></a></li>
+					<li><a href="galerie.html" title="Galerie"><img src="../Images/galerie.png" alt="galerie"></a></li>
+					<li><a href="contact.html" title="Contact"><img src="../Images/contact.png" alt="contact" ></a></li>
+				</ul>
+			</nav>
+			
+			<br><br><br>
+				
+			<h2 id="titre">Once Upon A Time...</h2>	
+			<br>	
+
+			<h3>Saison 1</h3>
+			<input type="button" value="Spoiler" id="boutonS1">
+
+			<!-- Balise spoiler en javascript -->
+				<div id="saison1">
+					<p>Le jour du mariage de Blanche-Neige et du Prince Charmant, la « méchante » Reine fait irruption et lance une malédiction. Tout le monde est inquiet et les jeunes mariés craignent pour leur enfant à venir. Ils décident de consulter Rumplestiltskin, appelé aussi le " Ténébreux ", un étrange et dangereux personnage. Ce dernier les informe que l'enfant qu'ils attendent viendra les sauver lors de son 28e anniversaire. La petite Emma naît et la malédiction se rapproche. Le prince réussit à envoyer sa fille dans un endroit sûr. Cependant, la Reine arrive et tous sont envoyés dans un monde sans magie, où ils ne se souviennent pas de leur véritable identité.</p>
+					<p>A Boston, Emma Swan vit une existence solitaire. Le jour de son 28e anniversaire, Henry, le petit garçon qu'elle a abandonné 10 ans auparavant, lui rend visite. Elle ne souhaite pas reprendre contact avec son fils, mais accepte de le ramener chez lui. Sur le chemin, Henry lui montre un livre de contes de fées et explique à Emma que toutes les histoires sont réelles et que les personnages qui y figurent habitent en réalité à Storybrooke dans le Maine, la ville où il vit. Il ajoute aussi qu'elle est la seule à pouvoir vaincre la malédiction qui règne sur la ville, car elle est la fille de Blanche-Neige et du Prince Charmant. Emma découvre qu'Henry a été adopté par Regina Mills, le maire de la ville qui, d'après Henry, est la méchante Reine. Emma est sceptique, mais décide finalement de rester quelque temps pour s'assurer que son fils va bien. L'horloge de la ville se remet alors en marche, ainsi que le temps jusqu'alors arrêté.</p>
+				</div>
+			
+			<h3>Saison 2</h3>
+			<input type="button" value="Spoiler" id="boutonS2">
+
+				<div id="saison2">
+					<p>La deuxième saison couvre les évènements qui se sont déroulés après l'arrivée de la magie à Storybrooke à cause de l'intervention de M. Gold. Libérant un Spectre pour venger Belle, enfermée pendant les vingt-huit ans de la Malédiction de Regina, Emma et sa mère Mary Margaret sont emportées dans le chapeau magique jusqu'à une parcelle préservée du Royaume enchanté, où elles affrontent Cora et le Capitaine Crochet. De retour chez elles, leurs ennemis qui les ont suivies sont prêts à tout pour parvenir à leurs fins. La saison 2 apporte une grande importance à l'histoire de Rumplestiltskin et de son fils Baelfire, devenu Neal Cassidy dans notre monde. Elle se termine lorsque Tamara, la « fiancée » de Neal, et son complice Greg Mendell actionnent un détonateur de la Malédiction entraînant la destruction de la ville, avant d'emmener Henry au Pays Imaginaire…</p>
+				</div>
+			
+			<h3>Saison 3</h3>
+			<input type="button" value="Spoiler" id="boutonS3">
+
+				<div id="saison3">
+					<p>La première partie couvre les évènements qui se sont déroulés après l'enlèvement d'Henry par Greg et Tamara jusqu'au Pays Imaginaire, poursuivis par le Jolly Roger avec à son bord Emma, Regina, Mary Margaret, David et M. Gold, sans oublier le Capitaine Crochet. Leur mission est de récupérer Henry avant que le maléfique Peter Pan ne s'empare de son cœur afin de devenir immortel. A Storybrooke, Belle doit désormais assurer la protection de la ville contre deux agents du Quartier Général. Cette partie se termine par la nouvelle Malédiction de Pan, qui finit par emmener tous les habitants à nouveau dans leur monde d'origine, à l'exception d'Emma, qui fuit avec Henry à New York avec de faux souvenirs d'une vie en famille, offerts par Regina.</p>
+					<p>La seconde partie reprend l'histoire un an plus tard, racontant les évènements au Royaume enchanté après la destruction du Sort noir en flash-backs. Emma retrouve la mémoire grâce à Crochet, et retourne à Storybrooke avec Henry pour défaire Zelena, la Méchante Sorcière de l'Ouest, qui depuis longtemps nourrit un projet de grande envergure : un voyage dans le temps pour être élevée par sa mère Cora, qu'elle n'a pas connue, et empêcher au passage la naissance de ses ennemis, dont sa demi-sœur Regina. Cette partie se termine par la défaite de Zelena, qui entraîne malgré tout Emma et Crochet dans le passé, où ils manquent d'annuler la rencontre entre Blanche-Neige et le Prince Charmant. Enfin de retour « chez elle », Emma veut profiter de sa famille qui accueille un nouveau venu, mais son voyage, à son insu, a malgré tout engendré des conséquences malencontreuses…</p>
+				</div>
+				
+				
+			<h3>Saison 4</h3>
+			<input type="button" value="Spoiler" id="boutonS4">
+
+				<div id="saison4">
+					<p>La première partie couvre les évènements qui se sont déroulés après le voyage dans le temps et l'arrivée de la Reine des Neiges Elsa à Storybrooke, amnésique de son enfermement dans une urne magique et souhaitant retrouver sa petite sœur, la princesse Anna. Épaulée par Emma, les deux amies font face à la mystérieuse Reine des Glaces Ingrid, tandis que Regina et Henry lancent une nouvelle Opération Mangouste dans le but de retrouver l'Auteur du livre de contes afin qu'il écrive une fin heureuse pour la Méchante Reine. Cette partie se termine avec la disparition d'Ingrid, le retour d'Elsa, Anna et Kristoff à Arendelle, ainsi que l'exil de M. Gold hors de Storybrooke par Belle, pour tous ses mensonges et autres actes impardonnables alors qu'il cherchait un moyen de se libérer du joug de la dague du Ténébreux. </p>
+					<p>La seconde partie reprend l'histoire environ deux mois plus tard, avec le retour de Gold en ville, et l'apparition du trio des Reines des Ténèbres : Maléfique, Ursula et Cruella d'Enfer, toutes les trois à la recherche de leur fin heureuse. Mary Margaret et David doivent alors faire face aux sorcières, et surtout aux conséquences d'un lourd secret. Lorsque l'Auteur actuel est libéré, celui-ci écrit son propre livre de contes et crée ainsi une réalité alternative pour les personnages du Royaume enchanté, que seul Henry peut sauver. Cette partie se termine avec la transformation d'Emma en nouvelle Ténébreuse, et sa disparition vers un autre monde…</p>
+				</div>
+				
+			<h3>Saison 5</h3>
+			<input type="button" value="Spoiler" id="boutonS5">
+			
+				<div id="saison5">
+					<p>Blanche-Neige, le Prince Charmant, la Méchante Reine, Crochet, Rumplestiltskin et tous les autres personnages de contes se préoccupent du nouveau rôle d'Emma en tant que nouvelle Ténébreuse et commencent leurs recherches pour trouver Merlin l'Enchanteur.</p>
+					<p>La seconde partie aura pour thème "Les Enfers". Nous aurons donc l'ocassion de croiser Hades, Hercule et Megara.</p>	
+				</div>
+				
+			<br>
+			
+			
+			<!-- Retour haut de page  -->
+			<a href="#retour"><img src="../Images/swan.png" alt="Retour haut de page" title="Retour haut de page" class="cygne"></a>			
+			<br>			
+			<hr>
+						
+			<!-- Fin retour haut de page -->
+			
+			<!-- Pied de page -->
+			<footer>
+				<p>Site réalisé par Thomas MADER et Arnaud BARBEY</p>
+			</footer>
+			<br>
+					
+			<!-- Fin pied de page -->
+		</div>
+	</body>
+</html>

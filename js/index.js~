@@ -1,0 +1,53 @@
+// définition des variables globales
+window.onload = init;
+
+var m=""; 	// contiendra le message à afficher
+var n=""; 	// contiendra le nombre de lettre de l'afficheur
+var o=0;  	// contiendra le décalage du texte à afficher
+var tempo=1000; // intervalle entre chaque décalage
+
+var vis=false;
+function init(){
+	
+	document.getElementById("co").onclick=connexion;
+	document.getElementById("envoyer").onclick=nonvisible;
+	document.getElementById("co").onclick=nonconnexion;
+	
+	var e = document.getElementById("afficheur");
+	tempo = e.getAttribute("tempo");
+	n = e.getAttribute("n");
+	m = e.innerHTML;
+	setInterval(afficheMessage, tempo);
+		
+	
+}
+
+function afficheMessage(){
+	
+	o=o+1;
+	c="";
+		for (var i=0;i<n;i++) 
+		{ 
+			c=c+m[(i+o)%m.length];		
+		}
+	document.getElementById("afficheur").innerHTML=c;
+
+}
+
+function connexion() {		
+
+	if (vis==true) 
+		vis=false;
+	else 
+		vis=true;
+	
+	if(vis==true)	
+		document.getElementById("zoneconnexion").style.visibility="visible";
+	else 
+		document.getElementById("zoneconnexion").style.visibility="hidden";
+	
+}
+
+function nonvisible() {
+	document.getElementById("zoneconnexion").style.visibility="hidden";
+}

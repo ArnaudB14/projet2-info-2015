@@ -1,0 +1,187 @@
+/* corps de page */
+
+html {
+	background: url("../Images/background.jpg") center no-repeat fixed;
+	background-color: #d2d2d3;
+	font-family: "Futura";
+}
+
+@font-face {
+	font-family: "Futura";
+	src: url('../police/futura-oblique.ttf');
+}
+
+body {
+	width: 1024px;
+	margin: auto;
+	background-image: url("../Images/contenu-bg.jpg");
+}
+#contenu{
+	width: 85%;
+	margin: auto;
+	margin-top: 20px;
+}
+
+/* fin corps de page */
+
+/* Top menu */
+#connexion {
+	display: inline-block;
+	width: 99%;
+	height: 40px;
+	background-color: black;
+	opacity: 0.65;	
+}
+
+#connexion ul {
+	text-align: right;
+	margin-right: 10%;
+	margin-bottom: 10px;
+}
+#connexion ul li {
+	display: inline-block;
+	padding-left: 20px;
+	margin-top: -10px;
+	margin-bottom: 10px;
+}
+#connexion ul li a {
+	text-decoration: none;
+	color: white;
+	font-size: 22px;	
+	text-transform: uppercase;
+}
+#connexion ul li a:hover{
+	color : grey;	
+}
+
+#zoneconnexion {
+	position: fixed;
+	border: 2px solid black;
+	top: 13%;
+	left: 39%;
+	padding: 5%;
+	background-color: white;
+	visibility: hidden;
+	z-index: 7;
+	text-align: center;
+}
+#zoneinscription {
+	position: fixed;
+	border: 2px solid black;
+	top: 13%;
+	left: 39%;
+	padding: 5%;
+	background-color: white;
+	visibility: hidden;
+	z-index: 7;
+	text-align: center;
+}
+#id {
+	margin-left: 24px;	
+}
+#inscript_nom {
+	margin-left: 57px;
+}
+#inscript_prenom {
+	margin-left: 39px;
+}
+#inscript_id {
+	margin-left: 25px;
+}
+#inscript_mdp {
+	margin-left: 5px;
+}
+
+	/* Nom de l'utilisateur */
+#name {
+	text-decoration: none;
+	color: white;
+	font-size: 22px;	
+	text-transform: uppercase;
+	padding-right: 35%;
+}
+/* Fin top menu */
+
+
+/* Header */
+
+header {
+	text-align: center;
+}
+
+/* fin header */
+
+
+/* Menu */
+
+nav {
+	text-align: center;
+}
+nav li {
+	float: left;
+	padding: 2px;
+	list-style: none;
+}
+nav a {
+	margin: 0 20px;
+	text-decoration: none;
+	color: black;
+}
+.plume {
+	margin-right: 3px;
+}
+
+/* Fin Menu */
+
+/* Source */
+
+.source {
+	text-align: right;
+	margin-right: 50px;
+}
+
+.source a {
+	text-decoration: none;
+	color: black;
+}
+
+/* Retour haut de page */
+
+.cygne {
+	margin: 0 auto;
+	width: 70px;
+	height: 67px;
+	display: block;
+}
+
+/* Fin retour */
+
+/* Partager */
+
+#Facebook {
+	background-image: url(../Images/facebook.png);
+	background-repeat: no-repeat;
+	width: 34px;
+	height: 34px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 34px;
+}
+#Google {
+	background-image: url(../Images/google.png);
+	background-repeat: no-repeat;
+	width: 34px;
+	height: 34px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 34px;
+}
+#Twitter {
+	background-image: url(../Images/twitter.png);
+	background-repeat: no-repeat;
+	width: 34px;
+	height: 34px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 34px;
+}

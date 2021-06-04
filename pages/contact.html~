@@ -1,0 +1,93 @@
+<!DOCTYPE html >
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Once Upon a Time - Emma Swan</title>
+		<link rel="stylesheet" type="text/css"  media="screen" href="../style/style.css"/>
+		<link rel="stylesheet" type="text/css" media="screen" href="../style/commun.css"/>
+		<script src="../js/contact.js"></script>
+	</head>
+
+	<body>
+		<div id="contenu"> <!-- Zone qui contient tous les éléments de la page HTML -->
+			
+			<!-- Header -->
+			<header id="retour">
+				<img src="../Images/header.png" alt="Once Upon a Time" title="Once Upon a Time" />
+			</header>
+
+			<!-- Menu -->
+
+			<nav>
+				<ul id="nav">
+					<li><a href="../index.html" title="Accueil"><img src="../Images/accueil.png" alt="accueil"></a></li>
+					<li><a href="ouat.html" title="Once Upon a Time"><img src="../Images/ouat.png" alt="once-upon-a-time"></a></li>
+					<li><a href="biographie.html" title="Emma Swan"><img src="../Images/emma.png" alt="swan"></a></li>
+					<li><a href="galerie.html" title="Galerie"><img src="../Images/galerie.png" alt="galerie"></a></li>
+					<li><a href="contact.html" title="Contact"><img src="../Images/contact.png" alt="contact" ></a></li>
+				</ul>
+			</nav>
+			
+			<br><br><br>
+
+			<!-- formulaire de contact 
+			bouton de réinitialisation javascript
+			génère une nombre aléatoire pour vérification de formulaire et demande à l'utilisateur de le rentrer  -->
+			
+			<form id="formulaire" name="formulaire">
+				<fieldset>
+					<legend>Saisie des identifiants</legend>
+						<p>Entrez votre pseudo (10 caractères max) : 
+						<input type="text" required size="10" maxlength="10" name="pseudo" /></p>
+
+						<p>Mot de passe (10 caractères max) : 
+						<input type="password" size="10" maxlength="10" name="password" /></p>
+			
+						<p>Votre email : 
+						<input type="email" name="email" placeholder="Champ obligatoire" /></p>
+				</fieldset>
+	
+				<fieldset>
+					<legend>Votre demande</legend>
+						<p>Destinataire : 
+						<select name="categorie" id="categorie">
+							<option value="com">Communication</option>
+							<option value="pb">Problème technique</option>
+							<option value="redac">Rédaction</option>
+							<option value="recrut">Recrutement</option>			
+					</select></p>
+					
+					<p>Sujet de votre message : 
+					<input type="text" requiered size="30" name="sujet" /></p>	
+			
+					<p>Posez votre question :</p>
+					<textarea name="com" id="com" rows="7" cols="50"
+					placeholder="Posez ici votre question"></textarea>
+					
+				</fieldset>
+		
+			<br>
+			
+		<input id="reset" type="reset" value="Réinitialiser">
+		<input type="submit" value="Envoyer">
+		
+		</form>
+			
+			<!-- Retour haut de page  -->
+			<a href="#retour"><img src="../Images/swan.png" alt="Retour haut de page" title="Retour haut de page" id="cygne"></a>			
+			<br>			
+			<hr>
+						
+			<!-- Fin retour haut de page -->
+			
+			<!-- Pied de page -->
+			<footer>
+				<p>Site réalisé par Thomas MADER et Arnaud BARBEY</p>
+			</footer>
+			<br>
+					
+			<!-- Fin pied de page -->
+		</div>
+	</body>
+</html>

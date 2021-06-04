@@ -1,0 +1,118 @@
+/* corps de page */
+
+html {
+	background: url("../Images/background.jpg") center no-repeat fixed;
+	background-color: #d2d2d3;
+	font-family: "Futura";
+}
+
+@font-face {
+	font-family: "Futura";
+	src: url('../police/futura-oblique.ttf');
+}
+
+body {
+	width: 1024px;
+	margin: auto;
+	background-color: #FFFFFF;
+	background-image: url("../Images/contenu-bg.jpg");
+}
+#contenu{
+	width: 85%;
+	margin: auto;
+	margin-top: 20px;
+}
+
+/* fin corps de page */
+
+/* Header */
+
+header {
+	text-align: center;
+}
+
+/* fin header */
+
+
+/* Menu */
+
+nav {
+	text-align: center;
+}
+nav li {
+	float: left;
+	padding: 2px;
+	list-style: none;
+}
+nav a {
+	margin: 0 20px;
+	text-decoration: none;
+	color: black;
+}
+.plume {
+	margin-right: 3px;
+}
+
+/* Fin Menu */
+
+/* Construction */
+
+#construction {
+	text-align: center;
+	margin-top: 35%;
+	margin-bottom: 65%;
+	text-transform: uppercase;
+}
+
+/* Source */
+
+.source {
+	text-align: right;
+	margin-right: 50px;
+}
+
+.source a {
+	text-decoration: none;
+	color: black;
+}
+
+/* Retour haut de page */
+
+#cygne {
+	margin: 0 auto;
+	width: 70px;
+	height: 67px;
+	display: block;
+}
+
+/* Fin retour */
+
+/* Partager */
+
+#Facebook {
+	background-image: url(../Images/facebook.png);
+	background-repeat: no-repeat;
+	width: 34px;
+	height: 34px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 34px;
+}
+#Google {
+	background-image: url(../Images/google.png);
+	background-repeat: no-repeat;
+	width: 34px;
+	height: 34px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 34px;
+}
+#Twitter {
+	background-image: url(../Images/twitter.png);
+	background-repeat: no-repeat;
+	width: 34px;
+	height: 34px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 34px;
+}
